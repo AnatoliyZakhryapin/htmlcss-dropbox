@@ -19,6 +19,10 @@ menu {
 
 /* GENERAL SETTING*/
 
+body {
+    font-size: 16px;
+}
+
 img {
 	max-width: 100%;
 }
@@ -43,9 +47,13 @@ figure > img {
 	margin: 0 auto;
 }
 
-.row {
+.row, .card, .col {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.col {
+    display: flex;
 }
 
 .col-1-terzo {
@@ -62,9 +70,37 @@ figure > img {
 	flex-basis: calc((100% / 12) * 12);
 }
 
+.button-small {
+    display: inline-block; 
+    color: white;
+    background-color: #0061FF;
+    line-height: 32px;
+    padding: 0px 16px;color: white;
+    background-color: #0061FF;
+}
 
 /* HEADER SETTING */
 
+.container-fluid .row {
+    justify-content: space-between;
+}
+
+ ul.nav-menu  {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.page-header .col {
+    align-items: center;
+}
+
+.page-header .card {
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 25px 15px;
+}
 /* MAIN SETTING */
 
 /* FOOTER SETTING */
@@ -90,7 +126,7 @@ figure > img {
     border: 1px solid rgb(0, 241, 0);
 }
 
-.card > * {
+.debug .card > * {
     border: 1px dashed rgb(41, 50, 177);
 }
 
