@@ -72,6 +72,30 @@ figure > img {
 /* DEBUG */
 
 /* --general debug-- */
+
+.debug .container-fluid {
+    border: 3px solid rgb(255, 4, 234);
+    margin: 0 auto;
+}    
+
+.debug .row {
+    border: 2px solid rgb(255, 174, 1);
+}    
+
+.debug .col {
+    border: 2px solid rgb(8, 8, 8);
+}   
+
+.debug .card {
+    border: 1px solid rgb(0, 241, 0);
+}
+
+.card > * {
+    border: 1px dashed rgb(41, 50, 177);
+}
+
+
+
 /* --header-- */
 /* --main-- */
 /* --footer-- */
