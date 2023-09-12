@@ -192,6 +192,19 @@ figure > img {
 
 */
 /*main content*/
+
+.main-section {
+    padding-top: 80px;
+}
+
+.input-box {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+input {
+    margin-right: 5px;
+}
 /*
 .main-content .main-section .container :nth-child(3) {
     gap: 50px;
