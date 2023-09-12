@@ -19,6 +19,7 @@ menu {
 
 /* GENERAL SETTING*/
 
+
 body {
     font-size: 16px;
 }
@@ -116,6 +117,21 @@ figure > img {
 .column {
     flex-direction: column;
 }
+
+:root {
+	--blue: #0061ff;
+	--light-blue: #b4d0e7;
+	--dark-blue: #0d2481;
+	--dark: black;
+	--bordeaux: #61082b;
+	--green: #a2d39b;
+	--yellow: #ffd830;
+	--red: #ff1c1c;
+	--dark-red: #d5001f;
+	--light-gray: #f5f5f5;
+	--light: #ffffff;
+}
+
 /* HEADER SETTING */
 
 .container-fluid .row {
