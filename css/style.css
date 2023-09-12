@@ -37,6 +37,7 @@ h3 {
 }
 
 img {
+    display: block;
 	max-width: 100%;
 }
 
@@ -137,6 +138,13 @@ figure > img {
     gap: 40px;
     padding: 25px 15px;
 }
+
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 /* MAIN SETTING */
 
 /*main-hero*/
@@ -168,6 +176,7 @@ figure > img {
     justify-content: space-between;
 }
 
+
 /*main content*/
 
 .main-content .main-section .container :nth-child(3) {
@@ -195,6 +204,10 @@ figure > img {
     border-bottom: 3px solid #F5F5F5;
     display: flex;
     justify-content: center;
+}
+
+.main-content .main-section .container [class^="col-4"] .card-header > {
+    padding: 5px 0px;
 }
 
 .main-content .main-section .container [class^="col-4"] .card-button {
