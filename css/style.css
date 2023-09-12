@@ -95,6 +95,26 @@ figure > img {
     padding: 0px 16px;color: white;
 }
 
+.main-content .card-title h1, 
+.main-content .card-title h2 {
+    padding: 50px 0px;
+}
+
+.main-content [class^="col-"] .card > * {
+    margin-bottom: 35px;
+}
+
+.main-content [class^="col-"] {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
 /* HEADER SETTING */
 
 .container-fluid .row {
@@ -147,6 +167,43 @@ figure > img {
     flex-direction: column;
     justify-content: space-between;
 }
+
+/*main content*/
+
+.main-content .main-section .container :nth-child(3) {
+    gap: 50px;
+    flex-wrap: nowrap;
+}
+
+.main-content .main-section .container [class^="col-4"] {
+    border: 3px solid #F5F5F5;
+}
+
+.main-content .main-section .container [class^="col-4"] .card > *:not(.card-header) {
+   padding: 0px 20px;
+}
+
+.main-content .main-section .container .col-4 [class^="card-"] > *:not(ul) {
+    padding: 10px 0px;
+}
+
+.main-content .main-section .container .col-4 [class^="card-"] ul > li {
+    padding: 10px 0px;
+}
+
+.main-content .main-section .container [class^="col-4"] .card-header {
+    border-bottom: 3px solid #F5F5F5;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content .main-section .container [class^="col-4"] .card-button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
 
 /* FOOTER SETTING */
 
