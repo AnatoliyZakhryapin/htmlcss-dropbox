@@ -19,6 +19,9 @@ menu {
 
 /* GENERAL SETTING*/
 
+html {
+	font-family: 'DM Sans', sans-serif;
+}
 
 body {
     font-size: 16px;
@@ -26,7 +29,8 @@ body {
 
 h1 {
     font-size: 74px;
-    line-height: 120px;
+    line-height: 1.4;
+	font-weight: 900;
 }
 
 h2 {
@@ -71,15 +75,14 @@ figure > img {
 	padding: 0 25px;
 }
 
-.col-1-terzo {
-	flex-basis: calc(100% / 3);
-}
-.col-2-terzi {
-	flex-basis: calc((100% / 3) * 2);
-}
 .col-4 {
 	flex-basis: calc((100% / 12) * 4);
 }
+
+.col-8 {
+	flex-basis: calc((100% / 12) * 8);
+}
+
 
 .col-12 {
 	flex-basis: calc((100% / 12) * 12);
@@ -107,30 +110,10 @@ figure > img {
 	--light: #ffffff;
 }
 
-/*
-.main-content .card-title h1, 
-.main-content .card-title h2 {
-    padding: 50px 0px;
+.margin-bottom-50 {
+    margin-bottom: 50px;
 }
 
-.main-content [class^="col-"] .card > * {
-    margin-bottom: 35px;
-}
-
-.main-content [class^="col-"] {
-    display: flex;
-}
-
-.flex {
-    display: flex;
-}
-
-.column {
-    flex-direction: column;
-}
-
-
-*/
 /* HEADER SETTING */
 
 .page-header {
@@ -161,10 +144,28 @@ figure > img {
 /* MAIN SETTING */
 
 /*main-hero*/
-/*
+
 .main-hero {
-    background-color: #B4D0E7;
+    background-color: var(--light-blue);
+    padding-top: 80px;
 }
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-content__text > * {
+    margin-bottom: 35px;
+}
+
+.hero-content__icon {
+    font-size: 50px;
+}
+
+/*
+
 
 .main-hero .card-title {
     padding: 50px 0px;
