@@ -53,7 +53,7 @@ figure > img {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1250px;
 	margin: 0 auto;
 }
 
@@ -62,9 +62,13 @@ figure > img {
 	margin: 0 auto;
 }
 
-.row, .card, .col {
+.row {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.row > [class^='col'] {
+	padding: 0 25px;
 }
 
 .col-1-terzo {
@@ -81,22 +85,29 @@ figure > img {
 	flex-basis: calc((100% / 12) * 12);
 }
 
-.button-small {
+.button {
     display: inline-block; 
     color: white;
-    background-color: #0061FF;
-    line-height: 32px;
-    padding: 0px 16px;color: white;
-}
-
-.button-big {
-    display: inline-block; 
-    color: white;
-    background-color: #0061FF;
+    background-color: var(--blue);
     line-height: 42px;
     padding: 0px 16px;color: white;
 }
 
+:root {
+	--blue: #0061ff;
+	--light-blue: #b4d0e7;
+	--dark-blue: #0d2481;
+	--dark: black;
+	--bordeaux: #61082b;
+	--green: #a2d39b;
+	--yellow: #ffd830;
+	--red: #ff1c1c;
+	--dark-red: #d5001f;
+	--light-gray: #f5f5f5;
+	--light: #ffffff;
+}
+
+/*
 .main-content .card-title h1, 
 .main-content .card-title h2 {
     padding: 50px 0px;
@@ -118,53 +129,39 @@ figure > img {
     flex-direction: column;
 }
 
-:root {
-	--blue: #0061ff;
-	--light-blue: #b4d0e7;
-	--dark-blue: #0d2481;
-	--dark: black;
-	--bordeaux: #61082b;
-	--green: #a2d39b;
-	--yellow: #ffd830;
-	--red: #ff1c1c;
-	--dark-red: #d5001f;
-	--light-gray: #f5f5f5;
-	--light: #ffffff;
-}
 
+*/
 /* HEADER SETTING */
 
-.container-fluid .row {
-    justify-content: space-between;
+.page-header {
+	padding: 20px 0;
+	background-color: var(--light);
 }
 
- ul.nav-menu  {
+.page-header .row {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.page-header .menu  {
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.page-header .col {
     align-items: center;
-}
-
-.page-header .card {
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-    padding: 25px 15px;
-}
-
-.nav-menu {
-    display: flex;
     flex-wrap: wrap;
 }
 
+.header-menu .menu__item > * {
+	line-height: 35px;
+	display: block;
+	padding: 0 20px;
+}
 
+.menu__item .logo-wrapper {
+	padding-left: 0;
+}
 /* MAIN SETTING */
 
 /*main-hero*/
-
+/*
 .main-hero {
     background-color: #B4D0E7;
 }
@@ -192,9 +189,9 @@ figure > img {
     justify-content: space-between;
 }
 
-
+*/
 /*main content*/
-
+/*
 .main-content .main-section .container :nth-child(3) {
     gap: 50px;
     flex-wrap: nowrap;
@@ -232,7 +229,7 @@ figure > img {
     text-align: center;
 }
 
-
+*/
 
 /* FOOTER SETTING */
 
