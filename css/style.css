@@ -475,6 +475,36 @@ figure > img {
     color: black;
 }
 
+/* faq-section */
+
+.main-faq-section {
+    padding: 120px 0px;
+}
+
+.main-faq-section .col-12 {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.main-faq-section .col-12 > *{
+    
+}
+
+.faq-list li {
+    font-weight: 600;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 30px 50px 30px 0px;
+    border-top: 2px solid var(--dark-gray);
+}
+
+.faq-list li:last-child{
+    border-bottom: 2px solid var(--dark-gray);
+}
+
+
 
 /* FOOTER SETTING */
 
