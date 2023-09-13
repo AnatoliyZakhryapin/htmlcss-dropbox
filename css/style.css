@@ -81,6 +81,14 @@ figure > img {
 	flex-basis: calc((100% / 12) * 4);
 }
 
+.col-5 {
+	flex-basis: calc((100% / 12) * 5);
+}
+
+.col-7 {
+	flex-basis: calc((100% / 12) * 7);
+}
+
 .col-8 {
 	flex-basis: calc((100% / 12) * 8);
 }
@@ -299,6 +307,26 @@ figure > img {
 
 .card-bottom .card-body {
     padding: 0px;
+}
+
+/*Main-partner-section*/
+
+.main-partner-section {
+    padding-top: 80px;
+}
+
+.main-partner-section .col-5 {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.main-partner-section .button {
+    background-color: transparent;
+    color: black;
+    border: 1px solid;
 }
 /* FOOTER SETTING */
 
