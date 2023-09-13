@@ -74,6 +74,7 @@
                 </div>
             </div>
         </section>
+        <!--Start main section-->
         <section class="main-section">
             <div class="container">
                 <div class="row margin-bottom-50">
@@ -83,12 +84,18 @@
                 </div>
                 <div class="row margin-bottom-50">
                     <div class="col-12">
-                        <div class="input-box">
-                            <p><input type="radio">Fatturazione mensile</p>
-                        </div>                       
-                        <div class="input-box">    
-                            <p><input type="radio">Fatturazione annuale</p>
-                        </div>
+                        <ul class="bill-rate__selection">
+                            <li class="bill-rate__group">
+                                <input type="radio" checked name="bill-rate" />
+                                <label for="">Fatturazione mensile</label>
+                            </li>
+                            <li class="bill-rate__group">
+                                <input type="radio" name="bill-rate" />
+                                <label for="">Fatturazione annuale</label>
+                            </li>
+                        </ul>
+
+                        </ul>
                     </div>
                 </div>
                 <div class="row">
@@ -268,26 +275,28 @@
             
                     <!--Column bottom-->
                     <div class="col-12">
-                        <div class="card-bisness-plan">
+                        <div class="card-bisness-plan card-bottom">
                             <div class="card-header">
                                 <i class="fa-solid fa-building" style="color: #000000;"></i>
                                 <p>Team</p>    
                             </div>
-                            <div>
-                                <div class=".left-side">
-                                    <div class="card-title">
-                                        <h3>Enterprice</h3>
-                                        <ul>
-                                            <li>Contatta l'ufficio vendite per i prezzi</li>
-                                        </ul>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="card-title">
+                                            <h3>Enterprice</h3>
+                                            <ul>
+                                                <li>Contatta l'ufficio vendite per i prezzi</li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-text">
+                                            <p>Soluzioni personalizzabili e supporto su misura per aiutare i professionisti IT nella gesione su qualsiasi scala.</p>
+                                        </div>
                                     </div>
-                                    <div class="card-text">
-                                        <p>Soluzioni personalizzabili e supporto su misura per aiutare i professionisti IT nella gesione su qualsiasi scala.</p>
-                                    </div>
-                                </div>
-                                <div class="right-side">
-                                    <div class="card-button">
-                                        <a class="button" href="">Contatta l'ufficio vendite</a>
+                                    <div class="col-4">
+                                        <div class="card-button">
+                                            <a class="button" href="">Contatta l'ufficio vendite</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -298,6 +307,9 @@
                 </div>
             </div>
         </section>
+        <!--End main section-->
+
+
     </main>
 
     <footer class="main-footer"></footer>

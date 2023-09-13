@@ -97,6 +97,7 @@ figure > img {
     line-height: 42px;
     padding: 0px 16px;color: white;
     text-align: center;
+    white-space: nowrap;
 }
 
 :root {
@@ -182,13 +183,29 @@ figure > img {
     padding-top: 80px;
 }
 
-.input-box {
-    display: inline-block;
-    margin-right: 30px;
+.bill-rate__selection {
+	display: flex;
+	gap: 32px;
 }
 
-input {
-    margin-right: 5px;
+.bill-rate__group {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+
+.bill-rate__group > input {
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	background-color: transparent;
+	appearance: none;
+	margin-bottom: 2px;
+}
+
+.bill-rate__group > input:checked {
+	border: 5px solid var(--blue);
 }
 
 .card-bisness-plan > * {
@@ -199,6 +216,7 @@ input {
 .card-bisness-plan .card-header {
     display: flex;
     gap: 10px;
+    align-items: baseline;
 }
 
 .card-bisness-plan .card-header {
@@ -248,7 +266,7 @@ input {
     color: var(--blue);
 }
 
-.main-section li:not(li:last-child) {
+.main-section .card-bisness-plan li:not(li:last-child) {
     margin-bottom: 20px;
  }
 
@@ -260,6 +278,28 @@ input {
     row-gap: 50px
  }
 
+ .card-bisness-plan.card-bottom .col-8 {
+	padding-left: 0px;
+	padding-right: 25px;
+}
+
+.card-bisness-plan.card-bottom .col-8 > * {
+	padding: 0px 20px;
+    margin-bottom: 55px;
+}
+
+.card-bisness-plan.card-bottom .col-4 {
+	padding-left: 25px;
+	padding-right: 0px;
+}
+
+.card-bisness-plan.card-bottom .col-4 > * {
+	padding: 0px 20px;
+}
+
+.card-bottom .card-body {
+    padding: 0px;
+}
 /* FOOTER SETTING */
 
 /* DEBUG */
