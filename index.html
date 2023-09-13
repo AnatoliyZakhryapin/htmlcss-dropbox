@@ -4,13 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="https://kit.fontawesome.com/08d5002177.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,400;9..40,700,800,900&display=swap"
-			rel="stylesheet"
-		/>
+    <script src="https://kit.fontawesome.com/08d5002177.js" crossorigin="anonymous"></script>	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap" rel="stylesheet">
     <title>Dropbox</title>
 </head>
 <body class="debug">
@@ -96,8 +93,8 @@
                 </div>
                 <div class="row">
                     <!--Column left-->
-                    <div class="col-4">
-                        <div class="card">
+                    <div class="col-4 flex">
+                        <div class="card-bisness-plan">
                             <div class="card-header">
                                 <i class="fa-solid fa-user" style="color: #000000;"></i>
                                 <p>Singolo</p>
@@ -121,16 +118,17 @@
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-share-nodes"></i>
-                                        Funzioni di produttività premium e condivisione file semplice e sicura
+                                        <p>Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                        
                                     </li>
                                 </ul>
                             </div>
                             <div class="card-button">
                                 <a class="button" href="">Prova gratis per 30 giorni</a>
-                                <p>opure</p>
-                                <span>
+                                <div class="buy-now">
+                                    <p>opure</p>
                                     <a href="">acquista ora</a>
-                                </span>
+                                </div>
                             </div>
                             <div class="card-text">
                                 <h4>Punti Sallenti del piano</h4>
@@ -148,8 +146,8 @@
                         </div>
                     </div>
                     <!--Column midle-->
-                    <div class="col-4">
-                        <div class="card">
+                    <div class="col-4 flex">
+                        <div class="card-bisness-plan">
                             <div class="card-header">
                                 <i class="fa-solid fa-users" style="color: #000000;"></i>
                                 <p>Team</p>
@@ -179,10 +177,10 @@
                             </div>
                             <div class="card-button">
                                 <a class="button" href="">Prova gratis per 30 giorni</a>
-                                <p>opure</p>
-                                <span>
+                                <div class="buy-now">
+                                    <p>opure</p>
                                     <a href="">acquista ora</a>
-                                </span>
+                                </div>
                             </div>
                             <div class="card-text">
                                 <h4>Punti Sallenti del piano</h4>
@@ -212,8 +210,8 @@
                         </div>
                     </div>
                     <!--Column right-->
-                    <div class="col-4">
-                        <div class="card">
+                    <div class="col-4 flex">
+                        <div class="card-bisness-plan">
                             <div class="card-header">
                                 <i class="fa-solid fa-building" style="color: #000000;"></i>
                                 <p>Azienda</p>
@@ -242,11 +240,11 @@
                                 </ul>
                             </div>
                             <div class="card-button">
-                                <a class="button" href="">Prova gratis per 30 giorni</a>
-                                <p>opure</p>
-                                <span>
-                                    <a href="">acquista ora</a>
-                                </span>
+                                <a class="button" href="">Contattaci</a>
+                                <div class="buy-now">
+                                    <p>opure</p>
+                                    <a href="#">acquista ora</a>
+                                </div>
                             </div>
                             <div class="card-text">
                                 <h4>Punti Sallenti del piano</h4>
@@ -269,29 +267,34 @@
                     </div>
             
                     <!--Column bottom-->
-                    <div class="col-8">
-                        <div class="card">
+                    <div class="col-12">
+                        <div class="card-bisness-plan">
                             <div class="card-header">
                                 <i class="fa-solid fa-building" style="color: #000000;"></i>
                                 <p>Team</p>    
                             </div>
-                            <div class="card-title">
-                                <h3>Enterprice</h3>
-                                <ul>
-                                    <li>Contatta l'ufficio vendite per i prezzi</li>
-                                </ul>
+                            <div>
+                                <div class=".left-side">
+                                    <div class="card-title">
+                                        <h3>Enterprice</h3>
+                                        <ul>
+                                            <li>Contatta l'ufficio vendite per i prezzi</li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Soluzioni personalizzabili e supporto su misura per aiutare i professionisti IT nella gesione su qualsiasi scala.</p>
+                                    </div>
+                                </div>
+                                <div class="right-side">
+                                    <div class="card-button">
+                                        <a class="button" href="">Contatta l'ufficio vendite</a>
+                                    </div>
+                                </div>
                             </div>
-                    
-                            <div class="card-text">
-                                <p>Soluzioni personalizzabili e supporto su misura per aiutare i professionisti IT nella gesione su qualsiasi scala.</p>
-                            </div>
+                            
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card-button">
-                            <a class="button-big" href="">Contatta l'ufficio vendite</a>
-                        </div>  
-                    </div>
+            
                 </div>
             </div>
         </section>
