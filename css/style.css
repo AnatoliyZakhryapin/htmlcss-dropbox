@@ -85,6 +85,10 @@ figure > img {
 	flex-basis: calc((100% / 12) * 5);
 }
 
+.col-6 {
+	flex-basis: calc((100% / 12) * 6);
+}
+
 .col-7 {
 	flex-basis: calc((100% / 12) * 7);
 }
@@ -121,6 +125,55 @@ figure > img {
 	--light-gray: #f5f5f5;
     --dark-gray: #dbdbdbc0;
 	--light: #ffffff;
+}
+
+.background-blue {
+    background-color: var(--blue);
+}
+
+.background-light-blue {
+    background-color: var(--light-blue);
+}
+
+.background-dark-blue {
+    background-color: var(--dark-blue);
+}
+
+.background-dark {
+    background-color: var(--dark);
+}
+
+
+.background-bordeaux {
+    background-color: var(--bordeaux);
+}
+
+.background-green {
+    background-color: var(--green);
+}
+
+.background-yellow {
+    background-color: var(--yellow);
+}
+
+.background-red {
+    background-color: var(--red);
+}
+
+.background-dark-red {
+    background-color: var(--dark-red);
+}
+
+.background-light-gray {
+    background-color: var(--light-gray);
+}
+
+.background-dark-gray {
+    background-color: var(--dark-gray);
+}
+
+.background-light {
+    background-color: var(--light);
 }
 
 .margin-bottom-50 {
@@ -342,7 +395,70 @@ figure > img {
 .main-operation-look-section .card-text > *:not(:last-child){
     margin-bottom: 20px;
 }
-   
+
+/* Company-team-section */
+.main-company-team-section {
+    padding-top: 120px;
+}
+
+.main-company-team-section .container-medium {
+    margin-bottom: 100px;
+}
+
+.main-company-team-section .container-medium a {
+    text-decoration: underline;
+    color: var(--blue);
+}
+
+.main-company-team-section .container-medium .row .col-12 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-company-team-section .col-4 {
+	padding: 50px;
+}
+
+.col-4.company-team-logo .row [class^='col-'] {
+	padding: 0px;
+}
+
+.col-4.company-team-logo {
+	padding: 0px;
+}
+
+.company-team-logo .col-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+}
+
+.company-team-logo .logo {
+    filter: brightness(0) invert(1);
+}
+
+.main-company-team-section .logo {
+    width: 50%;
+}
+
+.company-team-card .card-title {
+    margin-bottom: 50px;
+}
+
+.company-team-card .card-title::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);    
+    margin-top: 50px;
+}
+
+.company-team-card .card-text p {
+    margin-bottom: 50px;
+}
 
 /* FOOTER SETTING */
 
