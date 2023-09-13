@@ -328,6 +328,22 @@ figure > img {
     color: black;
     border: 1px solid;
 }
+
+/* Main-operation-look*/
+
+.main-operation-look-section {
+    padding-top: 120px;
+}
+
+.main-operation-look-section .row{
+    row-gap: 50px;
+}
+
+.main-operation-look-section .card-text > *:not(:last-child){
+    margin-bottom: 20px;
+}
+   
+
 /* FOOTER SETTING */
 
 /* DEBUG */
