@@ -460,6 +460,22 @@ figure > img {
     margin-bottom: 50px;
 }
 
+/* Try-free-section */
+
+.main-try-free-section {
+    padding: 120px 0px;
+}
+
+.main-try-free-section h2 {
+    color: var(--bordeaux);
+}
+
+.main-try-free-section .button {
+    background-color: white;
+    color: black;
+}
+
+
 /* FOOTER SETTING */
 
 /* DEBUG */
