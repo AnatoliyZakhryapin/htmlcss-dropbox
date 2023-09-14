@@ -425,15 +425,15 @@ figure > img {
 	padding: 50px;
 }
 
-.col-4.company-team-logo .row [class^='col-'] {
+.col-4.no-gutter .row [class^='col-'] {
 	padding: 0px;
 }
 
-.col-4.company-team-logo {
+.col-4.no-gutter {
 	padding: 0px;
 }
 
-.company-team-logo .col-6 {
+.company-team-logo.col-6 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -444,7 +444,8 @@ figure > img {
     filter: brightness(0) invert(1);
 }
 
-.main-company-team-section .logo {
+.company-team-logo.col-6 a,
+.company-team-card img.logo {
     width: 50%;
 }
 
