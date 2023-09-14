@@ -522,7 +522,8 @@ figure > img {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    flex-basis: 20%;
+    flex-basis: 0%;
+    flex-grow: 1;
 }
 
 .footer-list {
