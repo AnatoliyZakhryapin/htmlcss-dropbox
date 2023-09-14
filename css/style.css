@@ -238,10 +238,15 @@ figure > img {
     font-size: 50px;
 }
 
+.main-hero .image {
+    margin-bottom: -65px;
+}
+
+
 /*main content*/
 
 .main-section {
-    padding-top: 80px;
+    padding-top: 145px;
 }
 
 .bill-rate__selection {
